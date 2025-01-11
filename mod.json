@@ -1,0 +1,18 @@
+{
+  "Name": "Squid Game Mod",
+  "Author": "Timurkaaa",
+  "Description": "The mod adds items from the series \"The Squid Game\"",
+  "ModVersion": "1.0.0",
+  "GameVersion": "1.11",
+  "ThumbnailPath": "assets/logo.png",
+  "EntryPoint": "Mod.Mod",
+  "Tags": [
+    "Fun"
+  ],
+  "Scripts": [
+    "script.cs"
+  ],
+  "Active": true,
+  "UGCIdentity": null,
+  "CreatorUGCIdentity": null
+}
