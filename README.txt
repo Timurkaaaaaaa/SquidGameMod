@@ -1,6 +1,6 @@
 <align="center">
     <size=200%>Squid Game Mod</size>
-    <size=80%><b>Version:</b> 1.0.0</size>
+    <size=80%><b>Version:</b> 1.1.0</size>
 
     Welcome to People Playground's Squid Game! 
     This mod adds elements from the popular game, allowing you to immerse yourself in an atmosphere of exciting challenges and intense moments.
@@ -16,6 +16,8 @@
  - Manager
  - Soldier
  - Worker
+ - VIP-person
+ - Player
 
 <align="center">
     <b>Author:</b> Timurkaaa
