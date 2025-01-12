@@ -29,7 +29,7 @@
 2. Launch the game and activate the mod in the modifications menu
 
 <h3>Installation via Steam:</h3>
-1. Go to the Steam workshop to <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3405487822" target="_blank" title="Squid Game Mod">the project page</a> <br>
+1. Go to the Steam workshop to <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3405947250" target="_blank" title="Squid Game Mod">the project page</a> <br>
 2. Click the "Subscribe" button <br>
 3. Launch the game and activate the mod in the modifications menu
 
