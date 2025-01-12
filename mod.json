@@ -2,7 +2,7 @@
   "Name": "Squid Game Mod",
   "Author": "Timurkaaa",
   "Description": "The mod adds items from the series \"The Squid Game\"",
-  "ModVersion": "1.0.0",
+  "ModVersion": "1.1.0",
   "GameVersion": "1.11",
   "ThumbnailPath": "assets/logo.png",
   "EntryPoint": "Mod.Mod",
