@@ -165,6 +165,42 @@ namespace Mod
                     }
                 }
             );
+
+            ModAPI.Register(
+                new Modification()
+                {
+                    OriginalItem = ModAPI.FindSpawnable("Human"),
+                    NameOverride = "Player",
+                    DescriptionOverride = "Regular game player",
+                    CategoryOverride = ModAPI.FindCategory("Squid Game Mod"),
+                    ThumbnailOverride = ModAPI.LoadSprite("assets/miniatures/Player.png"),
+                    AfterSpawn = (Instance) =>
+                    { 
+                        var skin = ModAPI.LoadTexture("assets/characters/Player.png");
+                        var person = Instance.GetComponent<PersonBehaviour>();
+                        person.SetBodyTextures(skin, null, null, 1);
+                        
+                    }
+                }
+            );
+
+            ModAPI.Register(
+                new Modification()
+                {
+                    OriginalItem = ModAPI.FindSpawnable("Human"),
+                    NameOverride = "VIP-person",
+                    DescriptionOverride = "Rich people watching the players",
+                    CategoryOverride = ModAPI.FindCategory("Squid Game Mod"),
+                    ThumbnailOverride = ModAPI.LoadSprite("assets/miniatures/VIP-person.png"),
+                    AfterSpawn = (Instance) =>
+                    { 
+                        var skin = ModAPI.LoadTexture("assets/characters/VIP-person.png");
+                        var person = Instance.GetComponent<PersonBehaviour>();
+                        person.SetBodyTextures(skin, null, null, 1);
+                        
+                    }
+                }
+            );
         }
     };
 }
